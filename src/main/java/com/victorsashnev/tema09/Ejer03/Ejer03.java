@@ -17,6 +17,8 @@ public class Ejer03 {
                 numb = Integer.parseInt(scanner.nextLine());
             }catch(NumberFormatException nfe) {
                 if(counter == 0){
+                    //ENTRADA SALIDA
+                    //USE THROW TO AVOID IT
                     System.out.println("Hay que empezar con un numero");
                     work = false;
                 }

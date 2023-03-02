@@ -2,11 +2,11 @@ package com.victorsashnev.tema09.Ejer05;
 
 public class Alumno {
 
-    private String nombre;
+    private final String nombre;
 
-    private  int edad;
+    private final int edad;
 
-    private  int altura;
+    private final int altura;
 
     public String getNombre() {
         return nombre;
